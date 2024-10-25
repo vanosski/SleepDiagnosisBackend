@@ -7,17 +7,14 @@ This backend serves as the central hub for processing data logged by users throu
 
 ### Technologies Used
 - **Node.js**: For server-side logic.
-- **Express**: For building RESTful APIs to facilitate communication with the frontend.
-- **MongoDB**: For data storage and management of user sleep data.
-- **Mongoose**: For object data modeling and schema definition.
+- **Express**: For building RESTful APIs to facilitate communication with the frontend..
 - **Machine Learning**: Custom algorithms to analyze sleep data and generate predictions.
 
 ### Overview
 The backend API provides endpoints for user authentication, data entry, and model training. It processes incoming requests from the frontend and returns predictions and recommendations based on the user's sleep metrics. 
 
 ### Key Features
-- **User Authentication**: Secure login and registration for users.
-- **Data Management**: API endpoints for logging and retrieving user sleep data.
+- **Data Management**: API endpoints for retrieving user sleep data.
 - **Model Training**: Functionality to train machine learning models on user data for better predictions.
 - **Predictions**: Returns predicted sleep quality based on analyzed metrics.
 - **Recommendations**: Provides tailored advice based on user responses regarding sleep-related issues.
@@ -41,9 +38,8 @@ The backend API provides endpoints for user authentication, data entry, and mode
    ```
 
 ## Usage
-1. Ensure the database is set up correctly and configured in the code.
-2. Start the backend server and ensure it is running.
-3. Use the frontend application to interact with the API for logging sleep data and receiving predictions.
+1. Start the backend server and ensure it is running.
+2. Use the frontend application to interact with the API for logging sleep data and receiving predictions.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or features, please open an issue or submit a pull request.
